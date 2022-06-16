@@ -1,0 +1,477 @@
+<html lang="en-US" data-menu="leftalign">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>历史上榜歌曲 | 亚太最佳歌手</title>
+		<meta name="robots" content="noindex,nofollow">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="format-detection" content="telephone=no">
+		<link media="all" href="./css/top.css" rel="stylesheet">
+		<link rel="shortcut icon" href="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+		<link rel="stylesheet" id="elementor-animations-css" href="./css/animations.min.css" type="text/css"media="all">
+		<link rel="stylesheet" id="elementor-frontend-css" href="./css/frontend.min.css" type="text/css"media="all">
+		<link rel="stylesheet" id="musico-elementor-css"href="./css/autoptimize_single_b89ee699591f3672b2a8ca3d71bc9cb6.css" type="text/css" media="all">
+		<link rel="stylesheet" id="elementor-post-1174-css" href="./css/post-1174.css" type="text/css"media="all">
+		<link rel="stylesheet" id="musico-script-responsive-css-css"href="./css/autoptimize_single_33020c2eabcb569b90c557e24f9e9d60.css" type="text/css" media="all">
+		<script src="https://cdn.staticfile.org/vue/2.6.8/vue.min.js"></script>
+		<script src="https://cdn.staticfile.org/axios/0.26.0/axios.min.js"></script>
+
+		<style id="kirki-styles-global-inline-css">
+			#menu_wrapper .nav ul li a,
+			#menu_wrapper div .nav li>a,
+			.header_client_wrapper {
+				font-family: Renner;
+				font-size: 14px;
+				font-weight: 700;
+				letter-spacing: 0.5px;
+				line-height: 1.7;
+				text-transform: none;
+			}
+	
+			#menu_wrapper div .nav li,
+			html[data-menu=centeralogo] #logo_right_button {
+				padding-top: 25px;
+				padding-bottom: 25px;
+			}
+	
+			.top_bar {
+				background-color: #ffffff;
+			}
+	
+			#menu_wrapper .nav ul li a,
+			#menu_wrapper div .nav li>a,
+			#mobile_nav_icon,
+			#logo_wrapper .social_wrapper ul li a,
+			.header_cart_wrapper a {
+				color: #000000;
+			}
+	
+			#mobile_nav_icon {
+				border-color: #000000;
+			}
+	
+			#menu_wrapper .nav ul li a.hover,
+			#menu_wrapper .nav ul li a:hover,
+			#menu_wrapper div .nav li a.hover,
+			#menu_wrapper div .nav li a:hover,
+			.header_cart_wrapper a:hover,
+			#page_share:hover,
+			#logo_wrapper .social_wrapper ul li a:hover {
+				color: #ff2d55;
+			}
+	
+			#menu_wrapper .nav ul li a:before,
+			#menu_wrapper div .nav li>a:before {
+				background-color: #ff2d55;
+			}
+	
+			#menu_wrapper div .nav>li.current-menu-item>a,
+			#menu_wrapper div .nav>li.current-menu-parent>a,
+			#menu_wrapper div .nav>li.current-menu-ancestor>a,
+			#menu_wrapper div .nav li ul:not(.sub-menu) li.current-menu-item a,
+			#menu_wrapper div .nav li.current-menu-parent ul li.current-menu-item a,
+			#logo_wrapper .social_wrapper ul li a:active {
+				color: #ff2d55;
+			}
+	
+			.top_bar,
+			#nav_wrapper {
+				border-color: #ffffff;
+			}
+	
+			.header_cart_wrapper .cart_count {
+				background-color: #FF2D55;
+				color: #ffffff;
+			}
+	
+			#menu_wrapper .nav ul li ul li a,
+			#menu_wrapper div .nav li ul li a,
+			#menu_wrapper div .nav li.current-menu-parent ul li a {
+				font-family: Renner;
+				font-size: 14px;
+				font-weight: 400;
+				letter-spacing: 0.5px;
+				text-transform: none;
+			}
+	
+			#menu_wrapper .nav ul li ul li a,
+			#menu_wrapper div .nav li ul li a,
+			#menu_wrapper div .nav li.current-menu-parent ul li a,
+			#menu_wrapper div .nav li.current-menu-parent ul li.current-menu-item a,
+			#menu_wrapper .nav ul li.megamenu ul li ul li a,
+			#menu_wrapper div .nav li.megamenu ul li ul li a {
+				color: #ffffff;
+			}
+	
+			#menu_wrapper .nav ul li ul li a:hover,
+			#menu_wrapper div .nav li ul li a:hover,
+			#menu_wrapper div .nav li.current-menu-parent ul li a:hover,
+			#menu_wrapper .nav ul li.megamenu ul li ul li a:hover,
+			#menu_wrapper div .nav li.megamenu ul li ul li a:hover,
+			#menu_wrapper .nav ul li.megamenu ul li ul li a:active,
+			#menu_wrapper div .nav li.megamenu ul li ul li a:active,
+			#menu_wrapper div .nav li.current-menu-parent ul li.current-menu-item a:hover {
+				color: #ffffff;
+			}
+	
+			#menu_wrapper .nav ul li ul li a:before,
+			#menu_wrapper div .nav li ul li>a:before,
+			#wrapper.transparent .top_bar:not(.scroll) #menu_wrapper div .nav ul li ul li a:before {
+				background-color: #ffffff;
+			}
+	
+			#menu_wrapper .nav ul li ul,
+			#menu_wrapper div .nav li ul {
+				background: #000000;
+				border-color: #000000;
+			}
+	
+			#menu_wrapper div .nav li.megamenu ul li>a,
+			#menu_wrapper div .nav li.megamenu ul li>a:hover,
+			#menu_wrapper div .nav li.megamenu ul li>a:active,
+			#menu_wrapper div .nav li.megamenu ul li.current-menu-item>a {
+				color: #ffffff;
+			}
+	
+			#menu_wrapper div .nav li.megamenu ul li {
+				border-color: #333333;
+			}
+
+			
+			body.elementor-fullscreen.elementor-editor-active .elementor.elementor-edit-mode .elementor-editor-element-settings,body.elementor-editor-active.tg_menu_transparent .elementor.elementor-edit-mode .elementor-editor-element-settings {
+				top: 27px
+			}
+			body.elementor-fullscreen.elementor-editor-active:hover .header_style_wrapper,body.tg_menu_transparent.elementor-editor-active:hover .header_style_wrapper,body.elementor-editor-active:hover .header_style_wrapper {
+				display: none
+			}
+
+			
+#menu_wrapper div .nav>li.current-menu-item>a,#menu_wrapper div .nav>li.current-menu-parent>a,#menu_wrapper div .nav>li.current-menu-ancestor>a {
+	color: #444;
+	z-index: 2;
+	position: relative
+}
+#menu_wrapper div .nav li ul li a,#1menu_wrapper div .nav li.current-menu-item ul li a,#menu_wrapper div .nav li ul li.current-menu-item a,#menu_wrapper .nav ul li ul li a,#menu_wrapper .nav ul li.current-menu-item ul li a,#menu_wrapper .nav ul li ul li.current-menu-item a,#menu_wrapper div .nav li.current-menu-parent ul li a,#menu_wrapper div .nav li ul li.current-menu-parent a {
+	display: block;
+	background: 0 0;
+	height: auto
+}
+#menu_wrapper div .nav li.megamenu.col2 ul>li.menu-item-has-children {
+	width: 50%;
+	padding: 5px 15px 0 0
+}
+
+#menu_wrapper div .nav li.megamenu.col3 ul>li.menu-item-has-children {
+	width: 33.3%;
+	padding: 5px 15px 0 0
+}
+
+#menu_wrapper div .nav li.megamenu.col4 ul>li.menu-item-has-children {
+	width: 25%;
+	padding: 5px 15px 0 0
+}
+	.mobile_main_nav li.menu-item-has-children>a:after {
+		left: 240px
+	}
+
+		</style>
+	</head>
+	
+	<body data-rsssl="1"
+		class="home page-template-default page page-id-6 tg_menu_transparent tg_lightbox_black leftalign loftloader-lite-enabled elementor-default elementor-kit-330 elementor-page elementor-page-6 gallery-horizontal loaded"
+		data-elementor-device-mode="desktop" style="overflow-x: hidden;">
+
+		<div id="perspective" style="">
+
+			<div id="wrapper" class="hasbg transparent" style="padding-top: 74px;">
+
+				<div class="header_style_wrapper scroll">
+					<div class="top_bar scroll">
+						<div class="standard_wrapper">
+							<div id="logo_wrapper">
+								<div id="logo_normal" class="logo_container">
+									<div class="logo_align">
+										<a id="custom_logo" class="logo_wrapper" href="#"
+											style="margin-top: 0px;">
+											<img src="./img/logoko.png" alt="" width="150" height="50">
+										</a>
+									</div>
+								</div>
+								<div id="menu_wrapper">
+									<div id="nav_wrapper">
+										<div class="nav_wrapper_inner">
+											<div id="menu_border_wrapper">
+												<div class="menu-main-menu-container">
+													<ul id="main_menu" class="nav">
+														<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8 ">
+															<a href="index.html" style="padding-top: 0px; padding-bottom: 0px;">首页</a>
+														</li>
+														<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8 ">
+															<a href="song.html" style="padding-top: 0px; padding-bottom: 0px;">歌曲</a>
+														</li>
+														<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8 ">
+															<a href="singer.html" style="padding-top: 0px; padding-bottom: 0px;">歌手</a>
+														</li>
+														<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8 ">
+															<a href="history.html" style="padding-top: 0px; padding-bottom: 0px;">历史榜单</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="logo_right_wrapper">
+									<div id="logo_right_button">
+										<a href="javascript:;" id="mobile_nav_icon"><span class="ti-menu"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			
+				<div id="vapp" >
+					<div id="page_content_wrapper" class="" style="margin-left: 0px;margin-right: 0px;padding-left: 0px;padding-right: 0px;">
+						<div class="inner">
+							<div class="inner_wrapper">
+								<div class="sidebar_content full_width">
+									<div data-elementor-type="wp-post" data-elementor-id="1174" class="elementor elementor-1174 elementor-bc-flex-widget" data-elementor-settings="[]">
+										<div class="elementor-inner">
+											<div class="elementor-section-wrap">
+		
+												<section
+													class="elementor-element elementor-element-1484596 elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" >
+													<div class="elementor-container elementor-column-gap-default">
+														<div class="elementor-row">
+															<div
+																class="elementor-element elementor-element-0877519 elementor-column elementor-col-100 elementor-top-column"
+																data-id="0877519" data-element_type="column">
+																<div class="elementor-column-wrap  elementor-element-populated">
+																	<div class="elementor-widget-wrap">
+																		<div
+																			class="elementor-element elementor-element-8066972 elementor-widget elementor-widget-musico-slider-image-carousel"
+																			data-id="8066972" data-element_type="widget"
+																			data-widget_type="musico-slider-image-carousel.default">
+																			<div class="elementor-widget-container">
+																				<div class="tg_image_carousel_slider_wrapper carousel" style="height:690px;">
+																				
+																					<div class="carousel-item carousel-item--3 active">
+																						<div class="carousel-item__image"
+																							style="background-image:url(https://themegoods-cdn-pzbycso8wng.stackpathdns.com/musico/demo/wp-content/uploads/2018/10/escape-artiste-730532-unsplash.jpg);">
+																						</div>
+																						<div class="carousel-item__info" @click="into">
+																							<div class="carousel-item__container">
+																								<h2 class="carousel-item__subtitle">亚太最佳歌手</h2>
+																								<h1 class="carousel-item__title">历史 上榜</h1>
+																								<div class="carousel-item__description">本次入围的歌曲名单是根据
+																									在网易云、QQ音乐等各大音乐平台中发布的作品受欢迎程度选出,同时综合并参考了歌曲的购买量、分享量、播放量、收藏量、点击量等相关数据综合得出。</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</section>
+												
+												<template v-for="item in history">
+												<section
+													class="elementor-element elementor-element-0e415b1 headline elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+													data-id="0e415b1" data-element_type="section">
+													<div class="elementor-container elementor-column-gap-default">
+														<div class="elementor-row">
+															<div
+																class="elementor-element elementor-element-f185691 elementor-column elementor-col-100 elementor-top-column"
+																data-id="f185691" data-element_type="column">
+																<div class="elementor-column-wrap  elementor-element-populated">
+																	<div class="elementor-widget-wrap">
+																		<div
+																			class="elementor-element elementor-element-4884efa animated-fast elementor-widget elementor-widget-heading animated fadeInUp"
+																			data-id="4884efa" data-element_type="widget"
+																			data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
+																			data-widget_type="heading.default">
+																			<div class="elementor-widget-container">
+																				<span class="elementor-heading-title elementor-size-default">END</span>
+																			</div>
+																		</div>
+																		<div
+																			class="elementor-element elementor-element-5b966c0 animated-fast elementor-widget elementor-widget-heading animated fadeInUp"
+																			data-id="5b966c0" data-element_type="widget"
+																			data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:200}"
+																			data-widget_type="heading.default" @click="into">
+																			<div class="elementor-widget-container">
+																				<h1 class="elementor-heading-title elementor-size-default">{{item.end}}</h1>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</section>
+		
+												<section class="elementor-element elementor-element-cb61f98 animated-fast no_padding elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section animated fadeInUp" v-for="item2 in item.list">
+													<div class="elementor-container elementor-column-gap-default"  @click="into">
+														<div class="elementor-row">
+															<div class="elementor-element elementor-element-af67d28 elementor-column elementor-col-25 elementor-top-column">
+																<div class="elementor-column-wrap  elementor-element-populated">
+																	<div class="elementor-widget-wrap">
+																		<div class="elementor-element elementor-element-89de7d5 elementor-widget elementor-widget-heading">
+																			<div class="elementor-widget-container">
+																				<span class="elementor-heading-title elementor-size-default">{{item2.pm}}</span>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="elementor-element elementor-element-57d3cf2 elementor-column elementor-col-25 elementor-top-column">
+																<div class="elementor-column-wrap  elementor-element-populated">
+																	<div class="elementor-widget-wrap">
+																		<div class="elementor-element elementor-element-39508d5 elementor-widget elementor-widget-heading">
+																			<div class="elementor-widget-container">
+																				<span class="elementor-heading-title elementor-size-default">{{item2.mon}}</span>
+																			</div>
+																		</div>
+																		<div class="elementor-element elementor-element-9ddc5b8 elementor-widget elementor-widget-heading">
+																			<div class="elementor-widget-container">
+																				<span class="elementor-heading-title elementor-size-default">{{item2.date}}</span>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="elementor-element elementor-element-4ce5a9b elementor-column elementor-col-25 elementor-top-column">
+																<div class="elementor-column-wrap  elementor-element-populated">
+																	<div class="elementor-widget-wrap">
+																		<div class="elementor-element elementor-element-4cdabe4 elementor-widget elementor-widget-heading">
+																			<div class="elementor-widget-container">
+																				<h2 class="elementor-heading-title elementor-size-default">{{item2.name}}</h2>
+																			</div>
+																		</div>
+																		<div class="elementor-element elementor-element-a8191a6 elementor-align-left elementor-widget elementor-widget-button">
+																			<div class="elementor-widget-container">
+																				<div class="elementor-button-wrapper">
+																						<span class="elementor-button-content-wrapper">
+																							<span class="elementor-button-icon elementor-align-icon-left">
+																								<i class="fa fa-map-marker" aria-hidden="true"></i>
+																							</span>
+																							<span class="elementor-button-text">{{item2.singer}}</span>
+																						</span>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="elementor-element elementor-element-b7a5073 elementor-column elementor-col-25 elementor-top-column">
+																<div class="elementor-column-wrap  elementor-element-populated">
+																	<div class="elementor-widget-wrap">
+																		<div class="elementor-element elementor-element-4c53268 elementor-align-center elementor-widget elementor-widget-button">
+																			<div class="elementor-widget-container">
+																				<div class="elementor-button-wrapper">
+																					<a class="elementor-button elementor-size-md" role="button">
+																						<span class="elementor-button-content-wrapper">
+																							<span class="elementor-button-text">{{item2.num}}</span>
+																						</span>
+																					</a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</section>
+		
+											</template>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br class="clear">
+					</div>
+					</div>
+				</div>
+		
+			</div>
+		
+		</body>
+		
+		<script>
+			var dm = 'http://106.52.152.248/star/apix137/'
+			new Vue({
+				el: "#vapp",
+				data: {
+					// history: [],
+					history:[
+						{
+						'end':'2021-01-01',
+						'list':[
+							{'pm':1,'mon':'June','date':'2021-06-01','name':'《画中寻》','singer':'张云雷','num':'8624792'},
+							{'pm':2,'mon':'December','date':'2021-12-18','name':'《给我一个吻 (Live)》','singer':'宋亚轩','num':'8283265'},
+							{'pm':3,'mon':'November','date':'2020-11-22','name':'《月光》','singer':'秦霄贤','num':'8024687'},
+							{'pm':4,'mon':'October','date':'2021-10-25','name':'《一段悲伤的歌》','singer':'孟鹤堂','num':'6802043'},
+							{'pm':5,'mon':'September','date':'2021-09-23','name':'《Got You》','singer':'刘耀文','num':'6715690'},
+							{'pm':6,'mon':'March','date':'2022-03-14','name':'《名场面》','singer':'华晨宇','num':'6576253'},
+							{'pm':7,'mon':'May','date':'2020-05-14','name':'《心桥》','singer':'张真源','num':'6114743'},
+							{'pm':8,'mon':'August','date':'2020-08-06','name':'《和你在一起》','singer':'TFBOYS','num':'6101402'},
+							{'pm':9,'mon':'July','date':'2021-07-16','name':'《风暴眼》','singer':'INTO1','num':'5909125'},
+							{'pm':10,'mon':'April','date':'2021-04-13','name':'《感受她》','singer':'蔡徐坤','num':'5893138'},
+							],
+						}
+					],
+				},
+				created() {
+					this.gwHistory()
+				},
+		
+				methods: {
+					//确定
+					gwHistory(){
+						let that = this;
+						// console.log('index')
+						
+						let url = dm+ 'gwHistory';
+						axios.post(url, {}).then(function(res) {
+							that.history = res.data.data.data
+							// console.log(res.data.data.data)
+							// console.log(that.history)
+						})
+					},
+					into(){
+						window.open("into.html")
+					},
+					
+					getCookie(c_name){
+						if (document.cookie.length>0){
+								let c_start=document.cookie.indexOf(c_name + "=")
+								if (c_start!=-1){ 
+										c_start=c_start + c_name.length+1 
+										let c_end=document.cookie.indexOf(";",c_start)
+										if (c_end==-1) c_end=document.cookie.length
+												return unescape(document.cookie.substring(c_start,c_end))
+										} 
+								}
+						return ""
+					},
+					setCookie(c_name,value,expire) {
+						var date=new Date()
+						date.setSeconds(date.getSeconds()+expire)
+						document.cookie=c_name+ "="+escape(value)+"; expires="+date.toGMTString()
+						//console.log(document.cookie)
+					}
+					
+				},
+			})
+		</script>
+		
+		</html>
